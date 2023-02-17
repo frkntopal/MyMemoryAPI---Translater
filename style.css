@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.container {
+    width: 700px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls li,
+.icons,
+.icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .icons i {
+    width: 40px;
+    color: #7F8487;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.text-control textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+    resize: none;
+}
+
+.text-control .to-text {
+    border-left: 1px solid #7F8587;
+    border-radius: 0;
+}
+
+.box .text-control {
+    display: flex;
+    border-top: 1px solid darkgreen;
+}
+
+button {
+    background-color: #555555;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    transition-duration: .4s;
+    border: 2px solid #555;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: bisque;
+    color: black;
+    border: 2px solid #555;
+}
